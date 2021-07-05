@@ -8,7 +8,7 @@ namespace App\Model\Table;
 // `id` column is the primary key.
 use Cake\ORM\Table;
 
-class ArticleTable extends Table
+class ArticlesTable extends Table
 {
     public function initialize(array $config): void
     {
