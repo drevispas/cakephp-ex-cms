@@ -18,4 +18,7 @@
         </td>
     </tr>
     <?php endforeach; ?>
+
+    <!-- Insert a link named 'Add Article' that is associated with add(). -->
+    <?= $this->Html->link('Add Article',['action'=>'add']) ?>
 </table>
